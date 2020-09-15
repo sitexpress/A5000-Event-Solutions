@@ -1,0 +1,14 @@
+.promo {
+    background: url('../img/promo_bg.jpg') center (center/cover) no-repeat;
+    &__bg {
+        position: relative;
+        width: 100%;
+        min-height: 324px;
+    }
+    &__logo {
+        position: absolute;
+        right: 40px;
+        bottom: 24px;
+
+    }
+}

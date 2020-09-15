@@ -1,0 +1,111 @@
+.registration {
+    position: relative;
+    &__wrapper {
+        padding: 77px 174px 62px 174px;
+    }
+    &__subtitle {
+        margin: 0px 0px 45px 0px;
+        .subtitle {
+            text-align: center;
+            color: #287344;
+            font-family: "Conv_HelveticaNeueCyr-Medium";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+    }
+    &__data {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 37px;
+        &_second {
+            margin-bottom: 32px;
+        }
+    }
+    &__heading {
+        color: #000000;
+        font-family: "Conv_HelveticaNeueCyr-Roman";
+        font-size: 20px;
+        font-weight: 300;
+        &_first {
+            margin-bottom: 23px;
+        }
+        &_second {
+            margin-bottom: 16px; 
+        }
+        &_third {
+            margin-bottom: 20px; 
+        }
+    }
+    &__labels {
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__label {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-right: 34px;
+        color: #000000;
+        font-family: "Conv_HelveticaNeueCyr-Roman";
+        font-size: 18px;
+        font-weight: 400;
+        &_after {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 7px;
+            color: #000000;
+            font-family: "Conv_HelveticaNeueCyr-Roman";
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    &__input {
+        margin-top: 8px;
+        height: 39px;
+        border: 1px solid grey;
+        border-radius: 4px;
+        &_long {
+            width: 270px;
+        }
+        &_short {
+            width: 229px;
+        }
+        &_third {
+            margin-top: 17px;
+        }
+    }
+    &__check {
+        margin: 0px 10px 5px 2px;
+        transform:scale(1.6);
+    }
+    &__submit {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        width: 152px;
+        height: 43px;
+        background-color: #008042;
+        border-radius: 150px/100px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0px;
+        cursor: pointer;
+    }
+    &__btn {
+        position: relative;
+        color: #ffffff;
+        font-family: "DIN Pro - Condensed Medium";
+        font-size: 14px;
+        font-weight: 500;
+        background: none;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        &:hover {
+            text-shadow: 1px 1px 2px white, 0 0 1em #008042;
+        }
+    }
+}

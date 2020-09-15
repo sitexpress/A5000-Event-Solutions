@@ -1,0 +1,26 @@
+.header {
+    background-color: #008042;
+    &__block {
+        display: flex;
+        justify-content: flex-end;
+        padding: 46px 172px 23px 790px;
+        max-width: 1152px;
+        height: 85px;
+    }
+    .link {
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 40px;
+        color: #ffffff;
+        font-family: "DIN Pro - Condensed Medium";
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        cursor: pointer;
+        &:last-child {
+            margin-right: 0px;
+        }
+        &:hover {
+            text-shadow: 1px 1px 2px white, 0 0 1em #008042;
+        }
+    }
+}
